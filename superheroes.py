@@ -1,4 +1,5 @@
-# Background images courtesy of Author: ramses2099 from OpenGameArt.org https://opengameart.org/content/background-2
+# Background images courtesy of Author: ramses2099 from 
+# OpenGameArt.org https://opengameart.org/content/background-2
 
 # imports
 import os

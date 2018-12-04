@@ -1,8 +1,7 @@
-import pygame
 import os
+import pygame
 
-class Player(object):
-       
+class Player(object):     
     def __init__(self, name, display_name, x, y, width, height, player_number):
         self.name = name
         self.name = display_name
