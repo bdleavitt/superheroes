@@ -93,7 +93,7 @@ class Player(object):
         if self.current_sprite == None:
             self.current_sprite = self.sprites["stand"]
 
-        # display lumping animation if character is in mid jump
+        # display lumping jumping if character is in mid jump
         if self.isJump:
             if self.right:
                 self.current_sprite = self.sprites["jump_right"]
