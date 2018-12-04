@@ -14,7 +14,8 @@ FPS = 30    # 30 frames per second
 # Set up background
 WIDTH, HEIGHT = 900, 550
 game_surface = pygame.display.set_mode((WIDTH, HEIGHT))
-background = pygame.image.load(os.path.join('art', 'backgrounds', 'forest.png')).convert()
+background = pygame.image.load(os.path.join('art', 'backgrounds', 'plains.png')).convert()
+background = pygame.transform.scale(background, (WIDTH, HEIGHT))
 background_vertical_offset = HEIGHT - background.get_height()
 
 # Instantiate the players and player list
